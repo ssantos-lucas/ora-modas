@@ -1,0 +1,138 @@
+/* font-family: 'Belleza', sans-serif;
+font-family: 'Federo', sans-serif;
+font-family: 'Italiana', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Viaoda Libre', cursive; */
+
+:root {
+    --large-default-padding: 6.5em;
+    --medium-default-padding: 4em;
+}
+
+*{
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 64em;
+    margin: 1.25em auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #162028;
+    color: #fff;
+}
+
+h1, h2 {
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: normal;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 1em 0 0;
+    padding: 1em;
+}
+
+header .titulo-logo{
+    margin: .5em 0 .5em 8.4375em;
+}
+
+header ul li a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: .15em;
+    transition: color .3s linear;
+}
+
+header ul li a:hover{
+    color: white;
+}
+
+.portfolio {
+    padding: var(--medium-default-padding) var(--large-default-padding);
+    text-align: center;
+}
+
+.portfolio h1 {
+    font-size: 2.25em;
+    color: #252525;
+}
+
+.portfolio p {
+    font-size: 1em;
+    line-height: 2;
+    color: #555;
+}
+
+.gallery {
+    color: #555;
+    padding: 0 var(--large-default-padding) var(--medium-default-padding);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card {
+    text-align: center;
+}
+
+
+.nome-colecao {
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.about {
+    background-color: #003d52;
+    padding: var(--large-default-padding);
+    color: white;
+    background-image: url(../image/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.about p {
+    line-height: 1.5;
+    width: 70%;
+}
+
+.rodape {
+    background: #0b171f;
+    padding: 1.8em;
+    font-size: .75em;
+    color: #6f8597;
+    letter-spacing: .3em;
+    text-align: center;
+}
